@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-board {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: min-content;
+    grid-gap: 1px;
+    margin: 20px auto;
+}
+
+.tile {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#sudoku-board {
+    display: grid;
+    grid-template-columns: repeat(9, 40px);
+    grid-gap: 1px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.initial-cell {
+    background-color: #eee;
+}
+
+#options-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.option {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-right: 5px;
+    cursor: pointer;
+}
